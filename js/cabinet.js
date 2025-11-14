@@ -6,7 +6,7 @@ var images = [
   "Roman.jpeg",
   "Brianna.jpeg",
   "Isabel.jpg",
-  "Olivia.jpg",
+  "Olivia.png",
   "Trevor.jpeg",
   "Tiffany.jpeg",
   "Anthony.jpeg",
