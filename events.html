@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
+
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/events.css" />
     <link rel="stylesheet" href="/css/footer.css" />
-    
   </head>
-  
+
   <body>
+    <!-- HEADER / NAV -->
     <header class="events-header">
       <nav>
         <div class="brand-container">
           <img class="logo" src="/img/logo.png" />
           <h1 class="Title">Soph Caucus</h1>
         </div>
+
         <div class="pages-container">
           <a href="index.html" class="pages home">HOME</a>
           <a href="cabinet.html" class="pages cabinet">CABINET</a>
@@ -24,13 +26,11 @@
           <a href="contact.html" class="pages contact">CONTACT</a>
         </div>
       </nav>
+
       <div class="page-title">EVENTS</div>
     </header>
-    
-    <script src="/js/events.js"></script>
-    <script src="/js/navbar.js"></script>
 
-    <!-- Search Bar -->
+    <!-- SEARCH BAR -->
     <div class="search-container">
       <input
         type="text"
@@ -40,40 +40,92 @@
       />
     </div>
 
-    <!-- Events Container -->
+    <!-- EVENTS CONTAINER -->
     <div class="events-container" id="eventsContainer">
-
-      <section class="event-card" data-title="November Bake Sale">
+      <!-- JANUARY -->
+      <section class="event-card" data-title="Super Smash Bros Tournament">
         <div class="event-image-container">
-          <img class="event-image" src="img/stockcookie.avif"></img>
-          <div class="image-overlay">Upcoming</div>
+          <img class="event-image" src="img/comingsoon.jpg" />
         </div>
 
         <div class="event-content">
-          <h2 class="event-title">November Bake Sale</h2>
+          <h2 class="event-title">Super Smash Bros Tournament</h2>
 
           <div class="event-details">
             <div class="info-bubble">
-              <div class="info-item"><strong>Where: </strong>N/A</div>
-              <div class="info-item"><strong>When: </strong>11/14</div>
               <div class="info-item">
-                <strong>RSVP:</strong> <a href="#">N/A</a>
+                <strong>Where:</strong> Stuyvesant School
               </div>
+              <div class="info-item"><strong>When:</strong> January (TBD)</div>
+              <div class="info-item"><strong>RSVP:</strong> Coming Soon</div>
             </div>
 
             <div class="description-bubble">
-              About: Come join us at the November Bake Sale on November 14th!
-              We're excited to sell you delicous baked goods at low prices, and 
-              all for a good cause!
+              About: A competitive Super Smash Bros tournament open to all
+              sophomores.
             </div>
           </div>
         </div>
       </section>
 
+      <!-- DECEMBER -->
+      <section class="event-card" data-title="Snow Globe Making">
+        <div class="event-image-container">
+          <img class="event-image" src="img/snowglobe.png" />
+          <div class="image-overlay">Past</div>
+        </div>
+
+        <div class="event-content">
+          <h2 class="event-title">Snow Globe Making</h2>
+
+          <div class="event-details">
+            <div class="info-bubble">
+              <div class="info-item">
+                <strong>Where:</strong> Teachers’ Cafeteria
+              </div>
+              <div class="info-item"><strong>When:</strong> 12/22, 4–6 PM</div>
+              <div class="info-item"><strong>RSVP:</strong> Closed</div>
+            </div>
+
+            <div class="description-bubble">
+              About: A winter craft event where students made snow globes and
+              enjoyed pizza together.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="event-card" data-title="Bar Decorating">
+        <div class="event-image-container">
+          <img class="event-image" src="img/bardecorating.png" />
+          <div class="image-overlay">Past</div>
+        </div>
+
+        <div class="event-content">
+          <h2 class="event-title">Bar Decorating</h2>
+
+          <div class="event-details">
+            <div class="info-bubble">
+              <div class="info-item">
+                <strong>Where:</strong> Stuyvesant Cafeteria
+              </div>
+              <div class="info-item"><strong>When:</strong> 12/12</div>
+              <div class="info-item"><strong>RSVP:</strong> N/A</div>
+            </div>
+
+            <div class="description-bubble">
+              About: Students decorated the bar area to bring festive winter
+              spirit into school.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NOVEMBER -->
       <section class="event-card" data-title="Movie Night">
         <div class="event-image-container">
-          <img class="event-image" src="img/movienightstock.png"></img>
-          <div class="image-overlay">Upcoming</div>
+          <img class="event-image" src="img/movienight.png" />
+          <div class="image-overlay">Past</div>
         </div>
 
         <div class="event-content">
@@ -81,45 +133,123 @@
 
           <div class="event-details">
             <div class="info-bubble">
-              <div class="info-item"><strong>Where: </strong>Teacher's Cafeteria</div>
-              <div class="info-item"><strong>When: </strong>11/26 4:15-6:00 pm</div>
               <div class="info-item">
-                <strong>RSVP: </strong> <a href="#">coming out 11/15</a>
+                <strong>Where:</strong> Teachers’ Cafeteria
               </div>
+              <div class="info-item">
+                <strong>When:</strong> 11/26, 4:15–6:00 PM
+              </div>
+              <div class="info-item"><strong>RSVP:</strong> Closed</div>
             </div>
 
             <div class="description-bubble">
-              About: Get ready for a fun movie night on the twenty-sixth! We'll be watching Crazy
-              Rich Asians and snacking on popcorn. And don't worry, we'll be done before six;
-              plenty of time to go out and get dinner with a friend!
+              About: A cozy movie night featuring Crazy Rich Asians with popcorn
+              and snacks.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="event-card" data-title="November Bake Sale">
+        <div class="event-image-container">
+          <img class="event-image" src="img/stockcookie.avif" />
+          <div class="image-overlay">Past</div>
+        </div>
+
+        <div class="event-content">
+          <h2 class="event-title">November Bake Sale</h2>
+
+          <div class="event-details">
+            <div class="info-bubble">
+              <div class="info-item"><strong>Where:</strong> N/A</div>
+              <div class="info-item"><strong>When:</strong> 11/14</div>
+              <div class="info-item"><strong>RSVP:</strong> N/A</div>
+            </div>
+
+            <div class="description-bubble">
+              About: A fundraiser selling baked goods to support caucus
+              initiatives.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OCTOBER -->
+      <section class="event-card" data-title="Broadway Bridges">
+        <div class="event-image-container">
+          <img class="event-image" src="img/broadway.png" />
+          <div class="image-overlay">Past</div>
+        </div>
+
+        <div class="event-content">
+          <h2 class="event-title">Broadway Bridges</h2>
+
+          <div class="event-details">
+            <div class="info-bubble">
+              <div class="info-item">
+                <strong>Where:</strong> Broadway Theater
+              </div>
+              <div class="info-item"><strong>When:</strong> 10/21</div>
+              <div class="info-item"><strong>RSVP:</strong> Closed</div>
+            </div>
+
+            <div class="description-bubble">
+              About: Sophomores attended a Broadway show through the Broadway
+              Bridges program.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="event-card" data-title="Candy Hunt">
+        <div class="event-image-container">
+          <img class="event-image" src="img/candyhunt.png" />
+          <div class="image-overlay">Past</div>
+        </div>
+
+        <div class="event-content">
+          <h2 class="event-title">Candy Hunt</h2>
+
+          <div class="event-details">
+            <div class="info-bubble">
+              <div class="info-item">
+                <strong>Where:</strong> Stuyvesant School
+              </div>
+              <div class="info-item"><strong>When:</strong> 10/24</div>
+              <div class="info-item"><strong>RSVP:</strong> N/A</div>
+            </div>
+
+            <div class="description-bubble">
+              About: A school-wide candy hunt where students searched around
+              Stuy for hidden treats and prizes.
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-container">
-        <!-- LEFT SIDE -->
         <div class="footer-left">
           <h2 class="footer-title">
             <strong>Sophomore <span class="darker">Caucus</span></strong>
           </h2>
           <p class="presidents">Elly Wu Feng & Tenzin Chosang</p>
-  
+
           <div class="socials">
-            <a href="https://www.instagram.com/"
-              ><img class="socials-img" src="/img/instag.png" alt=""
-            /></a>
-            <a href="https://www.facebook.com/"
-              ><img class="socials-img" src="/img/faceb.png" alt=""
-            /></a>
-            <a href="https://www.linktree.com/"
-              ><img class="socials-img" src="/img/linkt.png" alt=""
-            /></a>
+            <a href="https://www.instagram.com/">
+              <img class="socials-img" src="/img/instag.png" />
+            </a>
+            <a href="https://www.facebook.com/">
+              <img class="socials-img" src="/img/faceb.png" />
+            </a>
+            <a href="https://www.linktree.com/">
+              <img class="socials-img" src="/img/linkt.png" />
+            </a>
           </div>
         </div>
-  
-        <!-- RIGHT SIDE -->
+
         <div class="footer-right">
           <div class="role-column">
             <h2 class="role">IT Directors</h2>
@@ -128,7 +258,7 @@
               <li>Zinnia Jones-Chen</li>
             </ul>
           </div>
-  
+
           <div class="role-column">
             <h2 class="role">Developers</h2>
             <ul class="web-dev">
@@ -137,12 +267,12 @@
             </ul>
           </div>
         </div>
-  
-        <!-- COPYRIGHT -->
+
         <p class="copyright">© 2025 Stuyvesant Sophomore Caucus</p>
       </div>
     </footer>
-    <script src="js/nav.js"></script>
-  </body>
 
+    <script src="/js/events.js"></script>
+    <script src="/js/navbar.js"></script>
+  </body>
 </html>
